@@ -1,0 +1,282 @@
+{
+	"info": {
+		"_postman_id": "e3fad09a-fad7-4abc-bf4e-041ab9a49627",
+		"name": "payment_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33042683"
+	},
+	"item": [
+		{
+			"name": "new_client",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"client_name\": \"Cliente 1\",\r\n    \"birth_date\": \"1990-01-01\",\r\n    \"document_number\": \"4323513236\",\r\n    \"country\": \"País 1\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/client/new_client",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"client",
+						"new_client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "new_client2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CLIENT_NAME\": \"NOMBRE DEL CLIENTE\",\r\n    \"BIRTH_DATE\": \"1990-01-01\",\r\n    \"DOCUMENT_NUMBER\": \"39100925\",\r\n    \"COUNTRY\": \"PAÍS DEL CLIENTE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/client/new_client",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"client",
+						"new_client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "new_client3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CLIENT_NAME\": \"NOMBRE DEL CLIENTE\",\r\n    \"BIRTH_DATE\": \"1990-01-01\",\r\n    \"DOCUMENT_NUMBER\": \"39100925\",\r\n    \"COUNTRY\": \"PAÍS DEL CLIENTE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/client/new_client",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"client",
+						"new_client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "new_credit_transaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CLIENT_NAME\": \"NOMBRE DEL CLIENTE\",\r\n    \"BIRTH_DATE\": \"1990-01-01\",\r\n    \"DOCUMENT_NUMBER\": \"39100925\",\r\n    \"COUNTRY\": \"PAÍS DEL CLIENTE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/client/new_client",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"client",
+						"new_client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "new_debit_transaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CLIENT_NAME\": \"NOMBRE DEL CLIENTE\",\r\n    \"BIRTH_DATE\": \"1990-01-01\",\r\n    \"DOCUMENT_NUMBER\": \"39100925\",\r\n    \"COUNTRY\": \"PAÍS DEL CLIENTE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/client/new_client",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"client",
+						"new_client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "client_balance1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "client_balance2",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "client_balance3",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "store_balances",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CLIENT_NAME\": \"NOMBRE DEL CLIENTE\",\r\n    \"BIRTH_DATE\": \"1990-01-01\",\r\n    \"DOCUMENT_NUMBER\": \"39100925\",\r\n    \"COUNTRY\": \"PAÍS DEL CLIENTE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/client/new_client",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"client",
+						"new_client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "client_balance1 Copy",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "client_balance2 Copy",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "client_balance3 Copy",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "store_balances Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CLIENT_NAME\": \"NOMBRE DEL CLIENTE\",\r\n    \"BIRTH_DATE\": \"1990-01-01\",\r\n    \"DOCUMENT_NUMBER\": \"39100925\",\r\n    \"COUNTRY\": \"PAÍS DEL CLIENTE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/client/new_client",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"client",
+						"new_client"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
